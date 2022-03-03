@@ -23,7 +23,7 @@ def get_jokes(num):
         cur_adverbs = random.choice(adverbs)
         cur_adjectives = random.choice(adjectives)
         joke_list.append(f'{cur_nouns} {cur_adverbs} {cur_adjectives}')
-        return joke_list
+    return joke_list
 
 
 print(get_jokes(1))
